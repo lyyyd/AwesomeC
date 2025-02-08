@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\myGitHub\\C\u002B\u002B\\AwesomeC\\rhin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D61C5B0-4B43-41D2-A52F-029C14725253}|rhin\\rhin.vcxproj|D:\\myGitHub\\C\u002B\u002B\\AwesomeC\\rhin\\rhin\\rhin.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D61C5B0-4B43-41D2-A52F-029C14725253}|rhin\\rhin.vcxproj|solutionrelative:rhin\\rhin.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB77597-279E-46F4-8F27-676B0A6638EB}|dynamicLibrary\\dynamicLibrary\\dynamicLibrary.vcxproj|D:\\myGitHub\\C\u002B\u002B\\AwesomeC\\rhin\\dynamicLibrary\\dynamicLibrary\\dynamicLibrary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BB77597-279E-46F4-8F27-676B0A6638EB}|dynamicLibrary\\dynamicLibrary\\dynamicLibrary.vcxproj|solutionrelative:dynamicLibrary\\dynamicLibrary\\dynamicLibrary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BB77597-279E-46F4-8F27-676B0A6638EB}|dynamicLibrary\\dynamicLibrary\\dynamicLibrary.vcxproj|D:\\myGitHub\\C\u002B\u002B\\AwesomeC\\rhin\\dynamicLibrary\\dynamicLibrary\\dynamicLibrary.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BB77597-279E-46F4-8F27-676B0A6638EB}|dynamicLibrary\\dynamicLibrary\\dynamicLibrary.vcxproj|solutionrelative:dynamicLibrary\\dynamicLibrary\\dynamicLibrary.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{970E3950-3489-4587-9CDD-346C687AB770}|staticLibrary\\staticLibrary\\staticLibrary.vcxproj|D:\\myGitHub\\C\u002B\u002B\\AwesomeC\\rhin\\staticLibrary\\staticLibrary\\staticLibrary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{970E3950-3489-4587-9CDD-346C687AB770}|staticLibrary\\staticLibrary\\staticLibrary.vcxproj|solutionrelative:staticLibrary\\staticLibrary\\staticLibrary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dynamicLibrary.c",
+              "DocumentMoniker": "D:\\myGitHub\\C\u002B\u002B\\AwesomeC\\rhin\\dynamicLibrary\\dynamicLibrary\\dynamicLibrary.c",
+              "RelativeDocumentMoniker": "dynamicLibrary\\dynamicLibrary\\dynamicLibrary.c",
+              "ToolTip": "D:\\myGitHub\\C\u002B\u002B\\AwesomeC\\rhin\\dynamicLibrary\\dynamicLibrary\\dynamicLibrary.c",
+              "RelativeToolTip": "dynamicLibrary\\dynamicLibrary\\dynamicLibrary.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-02-08T02:26:18.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dynamicLibrary.h",
+              "DocumentMoniker": "D:\\myGitHub\\C\u002B\u002B\\AwesomeC\\rhin\\dynamicLibrary\\dynamicLibrary\\dynamicLibrary.h",
+              "RelativeDocumentMoniker": "dynamicLibrary\\dynamicLibrary\\dynamicLibrary.h",
+              "ToolTip": "D:\\myGitHub\\C\u002B\u002B\\AwesomeC\\rhin\\dynamicLibrary\\dynamicLibrary\\dynamicLibrary.h",
+              "RelativeToolTip": "dynamicLibrary\\dynamicLibrary\\dynamicLibrary.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-08T02:26:00.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "rhin.c",
+              "DocumentMoniker": "D:\\myGitHub\\C\u002B\u002B\\AwesomeC\\rhin\\rhin\\rhin.c",
+              "RelativeDocumentMoniker": "rhin\\rhin.c",
+              "ToolTip": "D:\\myGitHub\\C\u002B\u002B\\AwesomeC\\rhin\\rhin\\rhin.c",
+              "RelativeToolTip": "rhin\\rhin.c",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-02-08T01:57:10.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "staticLibrary.h",
+              "DocumentMoniker": "D:\\myGitHub\\C\u002B\u002B\\AwesomeC\\rhin\\staticLibrary\\staticLibrary\\staticLibrary.h",
+              "RelativeDocumentMoniker": "staticLibrary\\staticLibrary\\staticLibrary.h",
+              "ToolTip": "D:\\myGitHub\\C\u002B\u002B\\AwesomeC\\rhin\\staticLibrary\\staticLibrary\\staticLibrary.h",
+              "RelativeToolTip": "staticLibrary\\staticLibrary\\staticLibrary.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-08T02:25:11.962Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
