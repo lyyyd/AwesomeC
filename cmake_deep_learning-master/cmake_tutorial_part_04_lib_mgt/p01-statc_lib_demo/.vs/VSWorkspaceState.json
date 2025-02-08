@@ -1,0 +1,8 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\Mingw64-Debug",
+      "out\\install\\Mingw64-Debug"
+    ]
+  }
+}
