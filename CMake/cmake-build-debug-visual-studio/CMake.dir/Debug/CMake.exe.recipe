@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\04.ArrLib\Debug\ArrLib.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\01.CLanguageEnvLib\Debug\CLanguageEnvLib.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\02.CTypeLib\Debug\CTypeLib.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\08.CompositeTypeLib\Debug\CompositeTypeLib.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\dynamicLibrary\Debug\DynamicLibrary.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\09.FileLib\Debug\FileLib.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\05.FunLib\Debug\FunLib.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\07.MemoryLib\Debug\MemoryLib.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\06.PointerLib\Debug\PointerLib.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\03.StatementsLib\Debug\StatementsLib.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\Debug\CMake.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{59E80A6E-14B1-3EC9-9A44-66F651C16146}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\myGitHub\C++\AwesomeC\CMake\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/myGitHub/C++/AwesomeC/CMake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\tools\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -SD:/myGitHub/C++/AwesomeC/CMake -BD:/myGitHub/C++/AwesomeC/CMake/cmake-build-debug-visual-studio --check-stamp-file D:/myGitHub/C++/AwesomeC/CMake/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeCCompiler.cmake;D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/myGitHub/C++/AwesomeC/CMake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\tools\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -SD:/myGitHub/C++/AwesomeC/CMake -BD:/myGitHub/C++/AwesomeC/CMake/cmake-build-debug-visual-studio --check-stamp-file D:/myGitHub/C++/AwesomeC/CMake/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeCCompiler.cmake;D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/myGitHub/C++/AwesomeC/CMake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\tools\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -SD:/myGitHub/C++/AwesomeC/CMake -BD:/myGitHub/C++/AwesomeC/CMake/cmake-build-debug-visual-studio --check-stamp-file D:/myGitHub/C++/AwesomeC/CMake/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeCCompiler.cmake;D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/myGitHub/C++/AwesomeC/CMake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\tools\CLion 2024.3.2\bin\cmake\win\x64\bin\cmake.exe" -SD:/myGitHub/C++/AwesomeC/CMake -BD:/myGitHub/C++/AwesomeC/CMake/cmake-build-debug-visual-studio --check-stamp-file D:/myGitHub/C++/AwesomeC/CMake/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeCCompiler.cmake;D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\tools\CLion 2024.3.2\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\ZERO_CHECK.vcxproj">
+      <Project>{4293D586-F5D7-3DAE-AA5A-55D0E2255D02}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\04.ArrLib\ArrLib.vcxproj">
+      <Project>{8E278BB5-EAB9-3F5C-AACB-578473054B9B}</Project>
+      <Name>ArrLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\01.CLanguageEnvLib\CLanguageEnvLib.vcxproj">
+      <Project>{51785985-ED9B-3746-96ED-6D833F558766}</Project>
+      <Name>CLanguageEnvLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\CMake.vcxproj">
+      <Project>{A1BF15BF-64FA-3833-9D3C-1AAA96AE22CF}</Project>
+      <Name>CMake</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\02.CTypeLib\CTypeLib.vcxproj">
+      <Project>{27A453D9-2F88-330B-A4FA-C1DB656999C8}</Project>
+      <Name>CTypeLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\08.CompositeTypeLib\CompositeTypeLib.vcxproj">
+      <Project>{A9D6AA55-FF8B-3CA2-83E1-B878D02A8655}</Project>
+      <Name>CompositeTypeLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\dynamicLibrary\DynamicLibrary.vcxproj">
+      <Project>{4B322D4E-1D59-37A3-9075-98FCB7388DFC}</Project>
+      <Name>DynamicLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\09.FileLib\FileLib.vcxproj">
+      <Project>{996B6343-C26F-3559-B24D-576017D5E950}</Project>
+      <Name>FileLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\05.FunLib\FunLib.vcxproj">
+      <Project>{02311F47-7544-3884-8086-C2C025C403A0}</Project>
+      <Name>FunLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\07.MemoryLib\MemoryLib.vcxproj">
+      <Project>{D0C22C1B-B193-35C2-9DA9-0EF7D7403DBB}</Project>
+      <Name>MemoryLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\06.PointerLib\PointerLib.vcxproj">
+      <Project>{BD7383BD-7FC0-3D12-AD59-7B43F480885E}</Project>
+      <Name>PointerLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\03.StatementsLib\StatementsLib.vcxproj">
+      <Project>{A8CD81B5-324E-3F55-BB1D-B02CBD9EB7AC}</Project>
+      <Name>StatementsLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\myGitHub\C++\AwesomeC\CMake\cmake-build-debug-visual-studio\lib\staticLibrary\StaticLibrary.vcxproj">
+      <Project>{675C3B0C-8D8F-3743-A72E-5B05F53555BD}</Project>
+      <Name>StaticLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lib/01.CLanguageEnvLib",
+		"source" : "lib/01.CLanguageEnvLib"
+	}
+}

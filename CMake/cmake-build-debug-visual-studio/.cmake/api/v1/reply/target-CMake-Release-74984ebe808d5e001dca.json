@@ -1,0 +1,333 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Release/CMake.exe"
+		},
+		{
+			"path" : "Release/CMake.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_custom_command",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG -std:c11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "D:/myGitHub/C++/AwesomeC/CMake/lib/staticLibrary"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/myGitHub/C++/AwesomeC/CMake/lib/dynamicLibrary"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/myGitHub/C++/AwesomeC/CMake/lib/01.CLanguageEnvLib"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/myGitHub/C++/AwesomeC/CMake/lib/02.CTypeLib"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/myGitHub/C++/AwesomeC/CMake/lib/03.StatementsLib"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/myGitHub/C++/AwesomeC/CMake/lib/04.ArrLib"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/myGitHub/C++/AwesomeC/CMake/lib/05.FunLib"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/myGitHub/C++/AwesomeC/CMake/lib/06.PointerLib"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/myGitHub/C++/AwesomeC/CMake/lib/07.MemoryLib"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/myGitHub/C++/AwesomeC/CMake/lib/08.CompositeTypeLib"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/myGitHub/C++/AwesomeC/CMake/lib/09.FileLib"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "StaticLibrary::@6670fd1f0e2af3a92a48"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "DynamicLibrary::@fe61300ab737e4231878"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "CLanguageEnvLib::@3d6b06436b5c1b8f58d4"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "CTypeLib::@bc58ca4ca2e31e893168"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "StatementsLib::@2efba3ba7ec8a2deffe5"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "ArrLib::@9265e67acb026c7761da"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "FunLib::@38b2f22d1cd66929d50a"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "PointerLib::@dbc131b209806f0a5227"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "CompositeTypeLib::@680c9f6acc8f8b765ce1"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "MemoryLib::@c2c0c78cb75ff285a51c"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "FileLib::@87b537d3dba8e58d0918"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "CMake::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\staticLibrary\\Release\\StaticLibrary.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\dynamicLibrary\\Release\\DynamicLibrary.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\01.CLanguageEnvLib\\Release\\CLanguageEnvLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\02.CTypeLib\\Release\\CTypeLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\03.StatementsLib\\Release\\StatementsLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\04.ArrLib\\Release\\ArrLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\05.FunLib\\Release\\FunLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\06.PointerLib\\Release\\PointerLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\07.MemoryLib\\Release\\MemoryLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\08.CompositeTypeLib\\Release\\CompositeTypeLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\09.FileLib\\Release\\FileLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "CMake",
+	"nameOnDisk" : "CMake.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

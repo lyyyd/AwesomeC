@@ -1,0 +1,2268 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						24
+					]
+				},
+				{
+					"build" : "lib/staticLibrary",
+					"jsonFile" : "directory-lib.staticLibrary-Debug-0de95dc45ec757d1d24a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/staticLibrary",
+					"targetIndexes" : 
+					[
+						1,
+						23
+					]
+				},
+				{
+					"build" : "lib/dynamicLibrary",
+					"jsonFile" : "directory-lib.dynamicLibrary-Debug-c34c6118eee7eb5d1ecb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/dynamicLibrary",
+					"targetIndexes" : 
+					[
+						2,
+						17
+					]
+				},
+				{
+					"build" : "lib/01.CLanguageEnvLib",
+					"jsonFile" : "directory-lib.01.CLanguageEnvLib-Debug-4fe1f4638220f9375a76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/01.CLanguageEnvLib",
+					"targetIndexes" : 
+					[
+						3,
+						13
+					]
+				},
+				{
+					"build" : "lib/02.CTypeLib",
+					"jsonFile" : "directory-lib.02.CTypeLib-Debug-0ae96aa0b85b35c229f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "lib/02.CTypeLib",
+					"targetIndexes" : 
+					[
+						4,
+						15
+					]
+				},
+				{
+					"build" : "lib/03.StatementsLib",
+					"jsonFile" : "directory-lib.03.StatementsLib-Debug-ba653d7f5aad58036d09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "lib/03.StatementsLib",
+					"targetIndexes" : 
+					[
+						5,
+						22
+					]
+				},
+				{
+					"build" : "lib/04.ArrLib",
+					"jsonFile" : "directory-lib.04.ArrLib-Debug-fbd1ae0b16f9c9a31438.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "lib/04.ArrLib",
+					"targetIndexes" : 
+					[
+						6,
+						12
+					]
+				},
+				{
+					"build" : "lib/05.FunLib",
+					"jsonFile" : "directory-lib.05.FunLib-Debug-7ce6ae691ff641b3fe8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "lib/05.FunLib",
+					"targetIndexes" : 
+					[
+						7,
+						19
+					]
+				},
+				{
+					"build" : "lib/06.PointerLib",
+					"jsonFile" : "directory-lib.06.PointerLib-Debug-e1f598ffad1cb395a5fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "lib/06.PointerLib",
+					"targetIndexes" : 
+					[
+						8,
+						21
+					]
+				},
+				{
+					"build" : "lib/07.MemoryLib",
+					"jsonFile" : "directory-lib.07.MemoryLib-Debug-0a851db6c837413790b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "lib/07.MemoryLib",
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"build" : "lib/08.CompositeTypeLib",
+					"jsonFile" : "directory-lib.08.CompositeTypeLib-Debug-a05e4c1f2f1d3d92d660.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "lib/08.CompositeTypeLib",
+					"targetIndexes" : 
+					[
+						10,
+						16
+					]
+				},
+				{
+					"build" : "lib/09.FileLib",
+					"jsonFile" : "directory-lib.09.FileLib-Debug-7643fb6e41165d74d4f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "lib/09.FileLib",
+					"targetIndexes" : 
+					[
+						11,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CMake",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "StaticLibrary",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "DynamicLibrary",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "CLanguageEnvLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "CTypeLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "StatementsLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "ArrLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "FunLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "PointerLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "MemoryLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "CompositeTypeLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "FileLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-d149d090a75524494cf7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@6670fd1f0e2af3a92a48",
+					"jsonFile" : "target-ALL_BUILD-Debug-a9fc715e167427b3d878.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@fe61300ab737e4231878",
+					"jsonFile" : "target-ALL_BUILD-Debug-8c04691682a951146444.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@3d6b06436b5c1b8f58d4",
+					"jsonFile" : "target-ALL_BUILD-Debug-0d50ef98c29e1f152480.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@bc58ca4ca2e31e893168",
+					"jsonFile" : "target-ALL_BUILD-Debug-484a81a1b5f96b82b620.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@2efba3ba7ec8a2deffe5",
+					"jsonFile" : "target-ALL_BUILD-Debug-c66fdd2b644259cb2e97.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@9265e67acb026c7761da",
+					"jsonFile" : "target-ALL_BUILD-Debug-65c883ca45f449619b1c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@38b2f22d1cd66929d50a",
+					"jsonFile" : "target-ALL_BUILD-Debug-60a6fe869f5c839e7a12.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@dbc131b209806f0a5227",
+					"jsonFile" : "target-ALL_BUILD-Debug-fd9d1990f4c1602ebeb6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@c2c0c78cb75ff285a51c",
+					"jsonFile" : "target-ALL_BUILD-Debug-c87d12f07786f964ee70.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@680c9f6acc8f8b765ce1",
+					"jsonFile" : "target-ALL_BUILD-Debug-178cf4777b3a8403af0b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@87b537d3dba8e58d0918",
+					"jsonFile" : "target-ALL_BUILD-Debug-df9e440dc33b8ecadb63.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ArrLib::@9265e67acb026c7761da",
+					"jsonFile" : "target-ArrLib-Debug-13a64652b2d9297b72ed.json",
+					"name" : "ArrLib",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CLanguageEnvLib::@3d6b06436b5c1b8f58d4",
+					"jsonFile" : "target-CLanguageEnvLib-Debug-a43525cccec1665b9fb8.json",
+					"name" : "CLanguageEnvLib",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CMake::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMake-Debug-e48bc0e94c2c63e3bb68.json",
+					"name" : "CMake",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CTypeLib::@bc58ca4ca2e31e893168",
+					"jsonFile" : "target-CTypeLib-Debug-4923b7ba0892978996aa.json",
+					"name" : "CTypeLib",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "CompositeTypeLib::@680c9f6acc8f8b765ce1",
+					"jsonFile" : "target-CompositeTypeLib-Debug-486a329599b008650122.json",
+					"name" : "CompositeTypeLib",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "DynamicLibrary::@fe61300ab737e4231878",
+					"jsonFile" : "target-DynamicLibrary-Debug-31ac2d8495000c736000.json",
+					"name" : "DynamicLibrary",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "FileLib::@87b537d3dba8e58d0918",
+					"jsonFile" : "target-FileLib-Debug-46bcb077eac26c8ca23c.json",
+					"name" : "FileLib",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "FunLib::@38b2f22d1cd66929d50a",
+					"jsonFile" : "target-FunLib-Debug-fd710d08a672c5c98567.json",
+					"name" : "FunLib",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "MemoryLib::@c2c0c78cb75ff285a51c",
+					"jsonFile" : "target-MemoryLib-Debug-6a14704e8978dac6e9aa.json",
+					"name" : "MemoryLib",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "PointerLib::@dbc131b209806f0a5227",
+					"jsonFile" : "target-PointerLib-Debug-94ae7d2259e184614ea4.json",
+					"name" : "PointerLib",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "StatementsLib::@2efba3ba7ec8a2deffe5",
+					"jsonFile" : "target-StatementsLib-Debug-8058f9386295e2eefd28.json",
+					"name" : "StatementsLib",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "StaticLibrary::@6670fd1f0e2af3a92a48",
+					"jsonFile" : "target-StaticLibrary-Debug-321059a606c62c15d09b.json",
+					"name" : "StaticLibrary",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-1778af90907ba4e33a9d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						24
+					]
+				},
+				{
+					"build" : "lib/staticLibrary",
+					"jsonFile" : "directory-lib.staticLibrary-Release-0de95dc45ec757d1d24a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/staticLibrary",
+					"targetIndexes" : 
+					[
+						1,
+						23
+					]
+				},
+				{
+					"build" : "lib/dynamicLibrary",
+					"jsonFile" : "directory-lib.dynamicLibrary-Release-c34c6118eee7eb5d1ecb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/dynamicLibrary",
+					"targetIndexes" : 
+					[
+						2,
+						17
+					]
+				},
+				{
+					"build" : "lib/01.CLanguageEnvLib",
+					"jsonFile" : "directory-lib.01.CLanguageEnvLib-Release-4fe1f4638220f9375a76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/01.CLanguageEnvLib",
+					"targetIndexes" : 
+					[
+						3,
+						13
+					]
+				},
+				{
+					"build" : "lib/02.CTypeLib",
+					"jsonFile" : "directory-lib.02.CTypeLib-Release-0ae96aa0b85b35c229f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "lib/02.CTypeLib",
+					"targetIndexes" : 
+					[
+						4,
+						15
+					]
+				},
+				{
+					"build" : "lib/03.StatementsLib",
+					"jsonFile" : "directory-lib.03.StatementsLib-Release-ba653d7f5aad58036d09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "lib/03.StatementsLib",
+					"targetIndexes" : 
+					[
+						5,
+						22
+					]
+				},
+				{
+					"build" : "lib/04.ArrLib",
+					"jsonFile" : "directory-lib.04.ArrLib-Release-fbd1ae0b16f9c9a31438.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "lib/04.ArrLib",
+					"targetIndexes" : 
+					[
+						6,
+						12
+					]
+				},
+				{
+					"build" : "lib/05.FunLib",
+					"jsonFile" : "directory-lib.05.FunLib-Release-7ce6ae691ff641b3fe8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "lib/05.FunLib",
+					"targetIndexes" : 
+					[
+						7,
+						19
+					]
+				},
+				{
+					"build" : "lib/06.PointerLib",
+					"jsonFile" : "directory-lib.06.PointerLib-Release-e1f598ffad1cb395a5fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "lib/06.PointerLib",
+					"targetIndexes" : 
+					[
+						8,
+						21
+					]
+				},
+				{
+					"build" : "lib/07.MemoryLib",
+					"jsonFile" : "directory-lib.07.MemoryLib-Release-0a851db6c837413790b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "lib/07.MemoryLib",
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"build" : "lib/08.CompositeTypeLib",
+					"jsonFile" : "directory-lib.08.CompositeTypeLib-Release-a05e4c1f2f1d3d92d660.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "lib/08.CompositeTypeLib",
+					"targetIndexes" : 
+					[
+						10,
+						16
+					]
+				},
+				{
+					"build" : "lib/09.FileLib",
+					"jsonFile" : "directory-lib.09.FileLib-Release-7643fb6e41165d74d4f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "lib/09.FileLib",
+					"targetIndexes" : 
+					[
+						11,
+						18
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CMake",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "StaticLibrary",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "DynamicLibrary",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "CLanguageEnvLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "CTypeLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "StatementsLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "ArrLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "FunLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "PointerLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "MemoryLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "CompositeTypeLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "FileLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-d149d090a75524494cf7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@6670fd1f0e2af3a92a48",
+					"jsonFile" : "target-ALL_BUILD-Release-a9fc715e167427b3d878.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@fe61300ab737e4231878",
+					"jsonFile" : "target-ALL_BUILD-Release-8c04691682a951146444.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@3d6b06436b5c1b8f58d4",
+					"jsonFile" : "target-ALL_BUILD-Release-0d50ef98c29e1f152480.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@bc58ca4ca2e31e893168",
+					"jsonFile" : "target-ALL_BUILD-Release-484a81a1b5f96b82b620.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@2efba3ba7ec8a2deffe5",
+					"jsonFile" : "target-ALL_BUILD-Release-c66fdd2b644259cb2e97.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@9265e67acb026c7761da",
+					"jsonFile" : "target-ALL_BUILD-Release-65c883ca45f449619b1c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@38b2f22d1cd66929d50a",
+					"jsonFile" : "target-ALL_BUILD-Release-60a6fe869f5c839e7a12.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@dbc131b209806f0a5227",
+					"jsonFile" : "target-ALL_BUILD-Release-fd9d1990f4c1602ebeb6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@c2c0c78cb75ff285a51c",
+					"jsonFile" : "target-ALL_BUILD-Release-c87d12f07786f964ee70.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@680c9f6acc8f8b765ce1",
+					"jsonFile" : "target-ALL_BUILD-Release-178cf4777b3a8403af0b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@87b537d3dba8e58d0918",
+					"jsonFile" : "target-ALL_BUILD-Release-df9e440dc33b8ecadb63.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ArrLib::@9265e67acb026c7761da",
+					"jsonFile" : "target-ArrLib-Release-fb169bd542cf4a6d49c5.json",
+					"name" : "ArrLib",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CLanguageEnvLib::@3d6b06436b5c1b8f58d4",
+					"jsonFile" : "target-CLanguageEnvLib-Release-5f12215df5da43cbdc5b.json",
+					"name" : "CLanguageEnvLib",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CMake::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMake-Release-74984ebe808d5e001dca.json",
+					"name" : "CMake",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CTypeLib::@bc58ca4ca2e31e893168",
+					"jsonFile" : "target-CTypeLib-Release-c8fa7f0c5485250b064a.json",
+					"name" : "CTypeLib",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "CompositeTypeLib::@680c9f6acc8f8b765ce1",
+					"jsonFile" : "target-CompositeTypeLib-Release-850d4377de2bcdef95e7.json",
+					"name" : "CompositeTypeLib",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "DynamicLibrary::@fe61300ab737e4231878",
+					"jsonFile" : "target-DynamicLibrary-Release-a855623c7ca4eb1c78c7.json",
+					"name" : "DynamicLibrary",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "FileLib::@87b537d3dba8e58d0918",
+					"jsonFile" : "target-FileLib-Release-2a75eb73d5ecd8fdde2d.json",
+					"name" : "FileLib",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "FunLib::@38b2f22d1cd66929d50a",
+					"jsonFile" : "target-FunLib-Release-10ede8e469f08d90c2e6.json",
+					"name" : "FunLib",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "MemoryLib::@c2c0c78cb75ff285a51c",
+					"jsonFile" : "target-MemoryLib-Release-a6270264fcd26b7b4030.json",
+					"name" : "MemoryLib",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "PointerLib::@dbc131b209806f0a5227",
+					"jsonFile" : "target-PointerLib-Release-89046f8d7d9b5fc19098.json",
+					"name" : "PointerLib",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "StatementsLib::@2efba3ba7ec8a2deffe5",
+					"jsonFile" : "target-StatementsLib-Release-fbbf51db7131159d90c7.json",
+					"name" : "StatementsLib",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "StaticLibrary::@6670fd1f0e2af3a92a48",
+					"jsonFile" : "target-StaticLibrary-Release-e8025e9dbffe6985c234.json",
+					"name" : "StaticLibrary",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-1778af90907ba4e33a9d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						24
+					]
+				},
+				{
+					"build" : "lib/staticLibrary",
+					"jsonFile" : "directory-lib.staticLibrary-MinSizeRel-0de95dc45ec757d1d24a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/staticLibrary",
+					"targetIndexes" : 
+					[
+						1,
+						23
+					]
+				},
+				{
+					"build" : "lib/dynamicLibrary",
+					"jsonFile" : "directory-lib.dynamicLibrary-MinSizeRel-c34c6118eee7eb5d1ecb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/dynamicLibrary",
+					"targetIndexes" : 
+					[
+						2,
+						17
+					]
+				},
+				{
+					"build" : "lib/01.CLanguageEnvLib",
+					"jsonFile" : "directory-lib.01.CLanguageEnvLib-MinSizeRel-4fe1f4638220f9375a76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/01.CLanguageEnvLib",
+					"targetIndexes" : 
+					[
+						3,
+						13
+					]
+				},
+				{
+					"build" : "lib/02.CTypeLib",
+					"jsonFile" : "directory-lib.02.CTypeLib-MinSizeRel-0ae96aa0b85b35c229f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "lib/02.CTypeLib",
+					"targetIndexes" : 
+					[
+						4,
+						15
+					]
+				},
+				{
+					"build" : "lib/03.StatementsLib",
+					"jsonFile" : "directory-lib.03.StatementsLib-MinSizeRel-ba653d7f5aad58036d09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "lib/03.StatementsLib",
+					"targetIndexes" : 
+					[
+						5,
+						22
+					]
+				},
+				{
+					"build" : "lib/04.ArrLib",
+					"jsonFile" : "directory-lib.04.ArrLib-MinSizeRel-fbd1ae0b16f9c9a31438.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "lib/04.ArrLib",
+					"targetIndexes" : 
+					[
+						6,
+						12
+					]
+				},
+				{
+					"build" : "lib/05.FunLib",
+					"jsonFile" : "directory-lib.05.FunLib-MinSizeRel-7ce6ae691ff641b3fe8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "lib/05.FunLib",
+					"targetIndexes" : 
+					[
+						7,
+						19
+					]
+				},
+				{
+					"build" : "lib/06.PointerLib",
+					"jsonFile" : "directory-lib.06.PointerLib-MinSizeRel-e1f598ffad1cb395a5fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "lib/06.PointerLib",
+					"targetIndexes" : 
+					[
+						8,
+						21
+					]
+				},
+				{
+					"build" : "lib/07.MemoryLib",
+					"jsonFile" : "directory-lib.07.MemoryLib-MinSizeRel-0a851db6c837413790b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "lib/07.MemoryLib",
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"build" : "lib/08.CompositeTypeLib",
+					"jsonFile" : "directory-lib.08.CompositeTypeLib-MinSizeRel-a05e4c1f2f1d3d92d660.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "lib/08.CompositeTypeLib",
+					"targetIndexes" : 
+					[
+						10,
+						16
+					]
+				},
+				{
+					"build" : "lib/09.FileLib",
+					"jsonFile" : "directory-lib.09.FileLib-MinSizeRel-7643fb6e41165d74d4f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "lib/09.FileLib",
+					"targetIndexes" : 
+					[
+						11,
+						18
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CMake",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "StaticLibrary",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "DynamicLibrary",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "CLanguageEnvLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "CTypeLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "StatementsLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "ArrLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "FunLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "PointerLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "MemoryLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "CompositeTypeLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "FileLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d149d090a75524494cf7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@6670fd1f0e2af3a92a48",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-a9fc715e167427b3d878.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@fe61300ab737e4231878",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-8c04691682a951146444.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@3d6b06436b5c1b8f58d4",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-0d50ef98c29e1f152480.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@bc58ca4ca2e31e893168",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-484a81a1b5f96b82b620.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@2efba3ba7ec8a2deffe5",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-c66fdd2b644259cb2e97.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@9265e67acb026c7761da",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-65c883ca45f449619b1c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@38b2f22d1cd66929d50a",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-60a6fe869f5c839e7a12.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@dbc131b209806f0a5227",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-fd9d1990f4c1602ebeb6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@c2c0c78cb75ff285a51c",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-c87d12f07786f964ee70.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@680c9f6acc8f8b765ce1",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-178cf4777b3a8403af0b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@87b537d3dba8e58d0918",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-df9e440dc33b8ecadb63.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ArrLib::@9265e67acb026c7761da",
+					"jsonFile" : "target-ArrLib-MinSizeRel-967b286006e3f013ffa9.json",
+					"name" : "ArrLib",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CLanguageEnvLib::@3d6b06436b5c1b8f58d4",
+					"jsonFile" : "target-CLanguageEnvLib-MinSizeRel-776eab3266472a4584b9.json",
+					"name" : "CLanguageEnvLib",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CMake::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMake-MinSizeRel-0c04bb82bfb401c6fd6d.json",
+					"name" : "CMake",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CTypeLib::@bc58ca4ca2e31e893168",
+					"jsonFile" : "target-CTypeLib-MinSizeRel-cd8886ba974efeea01ba.json",
+					"name" : "CTypeLib",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "CompositeTypeLib::@680c9f6acc8f8b765ce1",
+					"jsonFile" : "target-CompositeTypeLib-MinSizeRel-40e616abd096f0528fb2.json",
+					"name" : "CompositeTypeLib",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "DynamicLibrary::@fe61300ab737e4231878",
+					"jsonFile" : "target-DynamicLibrary-MinSizeRel-6f698cff3d66a9ffd6cc.json",
+					"name" : "DynamicLibrary",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "FileLib::@87b537d3dba8e58d0918",
+					"jsonFile" : "target-FileLib-MinSizeRel-16ae74ceb826511deb15.json",
+					"name" : "FileLib",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "FunLib::@38b2f22d1cd66929d50a",
+					"jsonFile" : "target-FunLib-MinSizeRel-fcd71b2e209d56e760d5.json",
+					"name" : "FunLib",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "MemoryLib::@c2c0c78cb75ff285a51c",
+					"jsonFile" : "target-MemoryLib-MinSizeRel-3db1f05fa0d4e3bb1c20.json",
+					"name" : "MemoryLib",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "PointerLib::@dbc131b209806f0a5227",
+					"jsonFile" : "target-PointerLib-MinSizeRel-2d6d56cd2e82f5270903.json",
+					"name" : "PointerLib",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "StatementsLib::@2efba3ba7ec8a2deffe5",
+					"jsonFile" : "target-StatementsLib-MinSizeRel-fbc4b3f68744d9e81801.json",
+					"name" : "StatementsLib",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "StaticLibrary::@6670fd1f0e2af3a92a48",
+					"jsonFile" : "target-StaticLibrary-MinSizeRel-61b6cc82207ab4b24e21.json",
+					"name" : "StaticLibrary",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-1778af90907ba4e33a9d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						24
+					]
+				},
+				{
+					"build" : "lib/staticLibrary",
+					"jsonFile" : "directory-lib.staticLibrary-RelWithDebInfo-0de95dc45ec757d1d24a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/staticLibrary",
+					"targetIndexes" : 
+					[
+						1,
+						23
+					]
+				},
+				{
+					"build" : "lib/dynamicLibrary",
+					"jsonFile" : "directory-lib.dynamicLibrary-RelWithDebInfo-c34c6118eee7eb5d1ecb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/dynamicLibrary",
+					"targetIndexes" : 
+					[
+						2,
+						17
+					]
+				},
+				{
+					"build" : "lib/01.CLanguageEnvLib",
+					"jsonFile" : "directory-lib.01.CLanguageEnvLib-RelWithDebInfo-4fe1f4638220f9375a76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/01.CLanguageEnvLib",
+					"targetIndexes" : 
+					[
+						3,
+						13
+					]
+				},
+				{
+					"build" : "lib/02.CTypeLib",
+					"jsonFile" : "directory-lib.02.CTypeLib-RelWithDebInfo-0ae96aa0b85b35c229f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "lib/02.CTypeLib",
+					"targetIndexes" : 
+					[
+						4,
+						15
+					]
+				},
+				{
+					"build" : "lib/03.StatementsLib",
+					"jsonFile" : "directory-lib.03.StatementsLib-RelWithDebInfo-ba653d7f5aad58036d09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "lib/03.StatementsLib",
+					"targetIndexes" : 
+					[
+						5,
+						22
+					]
+				},
+				{
+					"build" : "lib/04.ArrLib",
+					"jsonFile" : "directory-lib.04.ArrLib-RelWithDebInfo-fbd1ae0b16f9c9a31438.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "lib/04.ArrLib",
+					"targetIndexes" : 
+					[
+						6,
+						12
+					]
+				},
+				{
+					"build" : "lib/05.FunLib",
+					"jsonFile" : "directory-lib.05.FunLib-RelWithDebInfo-7ce6ae691ff641b3fe8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "lib/05.FunLib",
+					"targetIndexes" : 
+					[
+						7,
+						19
+					]
+				},
+				{
+					"build" : "lib/06.PointerLib",
+					"jsonFile" : "directory-lib.06.PointerLib-RelWithDebInfo-e1f598ffad1cb395a5fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "lib/06.PointerLib",
+					"targetIndexes" : 
+					[
+						8,
+						21
+					]
+				},
+				{
+					"build" : "lib/07.MemoryLib",
+					"jsonFile" : "directory-lib.07.MemoryLib-RelWithDebInfo-0a851db6c837413790b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "lib/07.MemoryLib",
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"build" : "lib/08.CompositeTypeLib",
+					"jsonFile" : "directory-lib.08.CompositeTypeLib-RelWithDebInfo-a05e4c1f2f1d3d92d660.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "lib/08.CompositeTypeLib",
+					"targetIndexes" : 
+					[
+						10,
+						16
+					]
+				},
+				{
+					"build" : "lib/09.FileLib",
+					"jsonFile" : "directory-lib.09.FileLib-RelWithDebInfo-7643fb6e41165d74d4f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "lib/09.FileLib",
+					"targetIndexes" : 
+					[
+						11,
+						18
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CMake",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "StaticLibrary",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "DynamicLibrary",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "CLanguageEnvLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "CTypeLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "StatementsLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "ArrLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "FunLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "PointerLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "MemoryLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "CompositeTypeLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "FileLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d149d090a75524494cf7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@6670fd1f0e2af3a92a48",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-a9fc715e167427b3d878.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@fe61300ab737e4231878",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-8c04691682a951146444.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@3d6b06436b5c1b8f58d4",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-0d50ef98c29e1f152480.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@bc58ca4ca2e31e893168",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-484a81a1b5f96b82b620.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@2efba3ba7ec8a2deffe5",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-c66fdd2b644259cb2e97.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@9265e67acb026c7761da",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-65c883ca45f449619b1c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@38b2f22d1cd66929d50a",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-60a6fe869f5c839e7a12.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@dbc131b209806f0a5227",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-fd9d1990f4c1602ebeb6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@c2c0c78cb75ff285a51c",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-c87d12f07786f964ee70.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@680c9f6acc8f8b765ce1",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-178cf4777b3a8403af0b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@87b537d3dba8e58d0918",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-df9e440dc33b8ecadb63.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ArrLib::@9265e67acb026c7761da",
+					"jsonFile" : "target-ArrLib-RelWithDebInfo-dd8afd2d1bfb783ecc05.json",
+					"name" : "ArrLib",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "CLanguageEnvLib::@3d6b06436b5c1b8f58d4",
+					"jsonFile" : "target-CLanguageEnvLib-RelWithDebInfo-518732e809447632c8c4.json",
+					"name" : "CLanguageEnvLib",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CMake::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMake-RelWithDebInfo-0f13ad5fe79f44f35b8f.json",
+					"name" : "CMake",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "CTypeLib::@bc58ca4ca2e31e893168",
+					"jsonFile" : "target-CTypeLib-RelWithDebInfo-f277c213b45aca2b786e.json",
+					"name" : "CTypeLib",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "CompositeTypeLib::@680c9f6acc8f8b765ce1",
+					"jsonFile" : "target-CompositeTypeLib-RelWithDebInfo-a7f780f8f8d8d55a03f2.json",
+					"name" : "CompositeTypeLib",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "DynamicLibrary::@fe61300ab737e4231878",
+					"jsonFile" : "target-DynamicLibrary-RelWithDebInfo-4e6c3ef85804172745c9.json",
+					"name" : "DynamicLibrary",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "FileLib::@87b537d3dba8e58d0918",
+					"jsonFile" : "target-FileLib-RelWithDebInfo-07a28a567917dc8b985c.json",
+					"name" : "FileLib",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "FunLib::@38b2f22d1cd66929d50a",
+					"jsonFile" : "target-FunLib-RelWithDebInfo-6bafb4e5ad71402d5aa8.json",
+					"name" : "FunLib",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "MemoryLib::@c2c0c78cb75ff285a51c",
+					"jsonFile" : "target-MemoryLib-RelWithDebInfo-913a43de3029e07563c5.json",
+					"name" : "MemoryLib",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "PointerLib::@dbc131b209806f0a5227",
+					"jsonFile" : "target-PointerLib-RelWithDebInfo-91f75d1137a41ab1e3e8.json",
+					"name" : "PointerLib",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "StatementsLib::@2efba3ba7ec8a2deffe5",
+					"jsonFile" : "target-StatementsLib-RelWithDebInfo-1d48ac14ba5f2d56495e.json",
+					"name" : "StatementsLib",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "StaticLibrary::@6670fd1f0e2af3a92a48",
+					"jsonFile" : "target-StaticLibrary-RelWithDebInfo-99ba623fcfddaa80882c.json",
+					"name" : "StaticLibrary",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-1778af90907ba4e33a9d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/myGitHub/C++/AwesomeC/CMake/cmake-build-debug-visual-studio",
+		"source" : "D:/myGitHub/C++/AwesomeC/CMake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
