@@ -4,6 +4,7 @@
 #include<stdlib.h>
 #include<time.h>
 #include "pointerLib.h"
+#include "extend1.h"
 
 int c_language_env_add(int a, int b) {
     return a + b;
@@ -329,8 +330,25 @@ void fun_init () {
 	// main11();
 	// main12();
 	// main13();
-	main14();
+	// main14();
+
+	// extend1_fun01();
+	// extend1_fun02();
+	// extend1_fun03();
+	// extend1_fun04();
+	// extend1_fun05();
+	// extend1_fun07();
 	// extend1_fun08();
+	// extend1_fun09();
+	// extend1_fun10();
+	// extend1_fun11();
+	// extend1_fun12();
+	// extend1_fun13();
+	// extend1_fun14();
+	// extend1_fun15();
+	// extend1_fun16();
+	extend1_fun17();
+
 }
 
 POINTERLIB_API PointerLib PointerLib_Init() {
