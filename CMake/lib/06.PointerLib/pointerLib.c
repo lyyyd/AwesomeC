@@ -330,6 +330,7 @@ void fun_init () {
 	// main12();
 	// main13();
 	main14();
+	// extend1_fun08();
 }
 
 POINTERLIB_API PointerLib PointerLib_Init() {

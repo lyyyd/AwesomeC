@@ -59,12 +59,9 @@ int main() {
     // printf("调用动态库的 CLanguageEnv library result: %d - %d = %d\n", e, f, c_language_env_result);
     // c_language_env_lib.init();
 
-    char str[] = "你好";
-    printf("%d\n", sizeof(str));
-
     // 初始化动态库
-    CLanguageEnvLib c_language_env_lib = CLanguageEnvLib_Init();
-    c_language_env_lib.init();
+    // CLanguageEnvLib c_language_env_lib = CLanguageEnvLib_Init();
+    // c_language_env_lib.init();
 
 
     // CTypeLib c_type_lib = CTypeLib_Init();
@@ -80,8 +77,8 @@ int main() {
     // FunLib fun_lib = FunLib_Init();
     // fun_lib.init();
 
-    PointerLib pointer_lib = PointerLib_Init();
-    pointer_lib.init();
+    // PointerLib pointer_lib = PointerLib_Init();
+    // pointer_lib.init();
 
     // MemoryLib memory_lib = MemoryLib_Init();
     // memory_lib.init();
