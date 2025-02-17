@@ -17,9 +17,18 @@ add_subdirectory(1.c-basics/06.PointerLib)
 add_subdirectory(1.c-basics/07.MemoryLib)
 add_subdirectory(1.c-basics/08.CompositeTypeLib)
 add_subdirectory(1.c-basics/09.FileLib)
+add_subdirectory(2.c-advance/1.1.typedef)
+add_subdirectory(2.c-advance/1.2.void)
+add_subdirectory(2.c-advance/1.3.sizeof)
+add_subdirectory(2.c-advance/1.4.modify-variable)
+add_subdirectory(2.c-advance/1.5.stack-area)
+add_subdirectory(2.c-advance/1.6.heap-area)
+add_subdirectory(2.c-advance/1.7.static-extern)
+add_subdirectory(2.c-advance/1.8.const)
 
 # 添加可执行文件
-add_executable(CMake src/main.c)
+add_executable(CMake src/main.c
+)
 
 # 链接静态库和动态库
 target_link_libraries(CMake PRIVATE StaticLibrary DynamicLibrary CLanguageEnvLib CTypeLib StatementsLib ArrLib FunLib PointerLib MemoryLib CompositeTypeLib FileLib)
