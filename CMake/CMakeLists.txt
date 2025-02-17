@@ -6,17 +6,17 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED True)
 
 # 添加子目录
-add_subdirectory(lib/staticLibrary)
-add_subdirectory(lib/dynamicLibrary)
-add_subdirectory(lib/01.CLanguageEnvLib)
-add_subdirectory(lib/02.CTypeLib)
-add_subdirectory(lib/03.StatementsLib)
-add_subdirectory(lib/04.ArrLib)
-add_subdirectory(lib/05.FunLib)
-add_subdirectory(lib/06.PointerLib)
-add_subdirectory(lib/07.MemoryLib)
-add_subdirectory(lib/08.CompositeTypeLib)
-add_subdirectory(lib/09.FileLib)
+add_subdirectory(1.c-basics/staticLibrary)
+add_subdirectory(1.c-basics/dynamicLibrary)
+add_subdirectory(1.c-basics/01.CLanguageEnvLib)
+add_subdirectory(1.c-basics/02.CTypeLib)
+add_subdirectory(1.c-basics/03.StatementsLib)
+add_subdirectory(1.c-basics/04.ArrLib)
+add_subdirectory(1.c-basics/05.FunLib)
+add_subdirectory(1.c-basics/06.PointerLib)
+add_subdirectory(1.c-basics/07.MemoryLib)
+add_subdirectory(1.c-basics/08.CompositeTypeLib)
+add_subdirectory(1.c-basics/09.FileLib)
 
 # 添加可执行文件
 add_executable(CMake src/main.c)
@@ -26,17 +26,17 @@ target_link_libraries(CMake PRIVATE StaticLibrary DynamicLibrary CLanguageEnvLib
 
 # 包含静态库和动态库的头文件目录
 target_include_directories(CMake PRIVATE 
-    ${CMAKE_SOURCE_DIR}/lib/staticLibrary
-    ${CMAKE_SOURCE_DIR}/lib/dynamicLibrary
-    ${CMAKE_SOURCE_DIR}/lib/01.CLanguageEnvLib
-    ${CMAKE_SOURCE_DIR}/lib/02.CTypeLib
-    ${CMAKE_SOURCE_DIR}/lib/03.StatementsLib
-    ${CMAKE_SOURCE_DIR}/lib/04.ArrLib
-    ${CMAKE_SOURCE_DIR}/lib/05.FunLib
-    ${CMAKE_SOURCE_DIR}/lib/06.PointerLib
-    ${CMAKE_SOURCE_DIR}/lib/07.MemoryLib
-    ${CMAKE_SOURCE_DIR}/lib/08.CompositeTypeLib
-    ${CMAKE_SOURCE_DIR}/lib/09.FileLib
+    ${CMAKE_SOURCE_DIR}/1.c-basics/staticLibrary
+    ${CMAKE_SOURCE_DIR}/1.c-basics/dynamicLibrary
+    ${CMAKE_SOURCE_DIR}/1.c-basics/01.CLanguageEnvLib
+    ${CMAKE_SOURCE_DIR}/1.c-basics/02.CTypeLib
+    ${CMAKE_SOURCE_DIR}/1.c-basics/03.StatementsLib
+    ${CMAKE_SOURCE_DIR}/1.c-basics/04.ArrLib
+    ${CMAKE_SOURCE_DIR}/1.c-basics/05.FunLib
+    ${CMAKE_SOURCE_DIR}/1.c-basics/06.PointerLib
+    ${CMAKE_SOURCE_DIR}/1.c-basics/07.MemoryLib
+    ${CMAKE_SOURCE_DIR}/1.c-basics/08.CompositeTypeLib
+    ${CMAKE_SOURCE_DIR}/1.c-basics/09.FileLib
 )
 
 # 复制动态库到可执行文件目录
