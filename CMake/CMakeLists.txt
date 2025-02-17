@@ -25,6 +25,15 @@ add_subdirectory(2.c-advance/1.5.stack-area)
 add_subdirectory(2.c-advance/1.6.heap-area)
 add_subdirectory(2.c-advance/1.7.static-extern)
 add_subdirectory(2.c-advance/1.8.const)
+add_subdirectory(2.c-advance/2.1.macro-function)
+add_subdirectory(2.c-advance/2.2.variable-transfer-analysis)
+add_subdirectory(2.c-advance/2.3.growth-direction-of-the-stack)
+add_subdirectory(2.c-advance/2.4.null-and-wild-pointers)
+add_subdirectory(2.c-advance/2.5.step-length-of-pointer)
+add_subdirectory(2.c-advance/2.6.indirect-assignment-of-a-pointer)
+add_subdirectory(2.c-advance/2.7.pointers-do-the-input-and-output-properties-of-function-parameters)
+add_subdirectory(2.c-advance/2.8.note-on-string-ointers)
+add_subdirectory(2.c-advance/2.9.string-exercise)
 
 # 添加可执行文件
 add_executable(CMake src/main.c
