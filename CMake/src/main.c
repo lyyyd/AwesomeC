@@ -80,9 +80,9 @@ int main() {
     // PointerLib pointer_lib = PointerLib_Init();
     // pointer_lib.init();
 
-    // MemoryLib memory_lib = MemoryLib_Init();
-    // memory_lib.init();
-    //
+    MemoryLib memory_lib = MemoryLib_Init();
+    memory_lib.init();
+
     // CompositeTypeLib composite_type_lib = CompositeTypeLib_Init();
     // composite_type_lib.init();
     //
