@@ -34,6 +34,7 @@ add_subdirectory(2.c-advance/2.6.indirect-assignment-of-a-pointer)
 add_subdirectory(2.c-advance/2.7.pointers-do-the-input-and-output-properties-of-function-parameters)
 add_subdirectory(2.c-advance/2.8.note-on-string-ointers)
 add_subdirectory(2.c-advance/2.9.string-exercise)
+add_subdirectory(2.c-advance/3.1.advance-lib)
 
 # 添加可执行文件
 add_executable(CMake src/main.c
