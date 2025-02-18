@@ -1,4 +1,5 @@
 .x64
+*.exe
 out
 CMake/cmake-build-debug-mingw/
 CMake/cmake-build-debug-visual-studio/
