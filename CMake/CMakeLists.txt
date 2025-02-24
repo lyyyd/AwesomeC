@@ -4,6 +4,7 @@ project(CMake)
 # 设置 C 语言标准
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED True)
+set(CMAKE_CXX_STANDARD 11)
 
 # 设置可执行文件输出目录
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/out)
@@ -40,8 +41,7 @@ add_subdirectory(2.c-advance/2.9.string-exercise)
 add_subdirectory(2.c-advance/3.1.advance-lib)
 
 # 添加可执行文件
-add_executable(CMake src/main.c
-)
+add_executable(CMake src/main.c)
 
 # 链接静态库和动态库
 target_link_libraries(CMake PRIVATE StaticLibrary DynamicLibrary CLanguageEnvLib CTypeLib StatementsLib ArrLib FunLib PointerLib MemoryLib CompositeTypeLib FileLib)
